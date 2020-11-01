@@ -1,0 +1,37 @@
+/*
+*
+* ==========================================
+* custom about me
+* ==========================================
+*
+*/
+body, html {
+  height: 100%;
+  background-color: #BCBCBC;
+}
+.caption {
+    position: absolute;
+    left: 0;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+}
+.img-fluid{
+	max-width: 20%;
+    box-shadow: 2px 2px 4px rgba(1, 1, 1, 0.15);
+    border: 10px solid #B6B5B5;
+}
+.about-text{
+	position: absolute;
+	margin-left: 30%;
+    top: 120%;
+    width: 40%;
+    text-align: center;
+}
+.card{
+    background-color: #BCBCBC;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+    border: 1px solid #B6B5B5;
+
+}
+}
