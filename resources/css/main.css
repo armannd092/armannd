@@ -54,7 +54,8 @@
 *
 */
 .navbar {
-    transition: all 1s;
+    transition: all 0.5s;
+    z-index: 3;
 }
 
 .navbar .nav-link {
@@ -84,12 +85,31 @@
 
 .navbar.active .nav-link:hover,
 .navbar.active .nav-link:focus {
-    color: #8D8D8D;
+    color: #C50000;
     text-decoration: none;
 }
 
 .navbar.active .navbar-brand {
     color: #8D8D8D;
+}
+button:hover{
+   transform: rotate(45deg);
+}
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.menueButton{
+  font-size: 35px;
+  color: #fff;
+}
+.menueButton:hover{
+  color: #C50000;
+}
+.menueButton:active{
+  color: #C50000;
+  transition: 0.1s;
 }
 
 .wrap{
@@ -97,14 +117,5 @@
   font-weight: bold;
   font-size: 3rem;
 }
+ 
 
-/* Change navbar styling on small viewports */
-@media (max-width: 991.98px) {
-    .navbar {
-        background: #fff;
-    }
-
-    .navbar .navbar-brand, .navbar .nav-link {
-        color: #8D8D8D;
-    }
-}
